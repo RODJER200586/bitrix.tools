@@ -1,0 +1,32 @@
+{
+    "name": "rodjer200586/bitrix.tools",
+    "version": "0.0.1",
+    "description": "Composer package of tools for Bitrix",
+    "keywords": [
+        "bitrix",
+        "tools"
+    ],
+    "type": "bitrix-tools",
+    "license": "MIT",
+    "support": {
+        "email": "rodjer200586@gmail.com",
+        "skype": "rodjer200586",
+        "issues": "https://github.com/rodjer200586/bitrix.tools/issues",
+        "source": "https://github.com/rodjer200586/bitrix.tools/"
+    },
+    "authors": [
+        {
+            "name": "Alexei Sindyukov",
+            "homepage": "http://sinalex.ru",
+            "email": "rodjer200586@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Rodjer200586\\Bitrix\\Tools\\": "src/"
+        }
+    }
+}
